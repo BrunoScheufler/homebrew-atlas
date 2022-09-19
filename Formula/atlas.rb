@@ -13,7 +13,7 @@ class Atlas < Formula
 
   def install
     # ENV.deparallelize  # if your formula fails when building in parallel
-    system "go", "build", *std_go_args(ldflags: "-s -w"), "./cli"
+    system "go", "build", *std_go_args(ldflags: "-s -w -X main.version=#{version}"), "./cli"
     # would also work:
     # system "go", "build", "-o", "bin/cli", "./cli"
     # bin.install "bin/cli" => "atlas"
