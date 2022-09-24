@@ -4,9 +4,9 @@
 class Atlas < Formula
   desc "improved local development"
   homepage "https://github.com/BrunoScheufler/atlas"
-  url "https://github.com/BrunoScheufler/atlas/archive/v0.0.1-alpha.2.tar.gz"
-  version "0.0.1-alpha.2"
-  sha256 "b8bb1fc5863e91118492a90a0e5f130d73bee0fd1148699ec75d2b90081f0c48"
+  url "https://github.com/BrunoScheufler/atlas/archive/v0.0.1-alpha.3.tar.gz"
+  version "0.0.1-alpha.3"
+  sha256 "bed8289b0f81c66be2bb1775c32cc8949dc16279917f3a6af83663a4ddb0dea4"
   license "MIT"
 
   depends_on "go" => :build
